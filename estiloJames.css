@@ -1,0 +1,328 @@
+
+
+.borda{
+
+    border: 1px solid blue;
+    border-radius: 5px;
+
+}
+
+body{
+
+    margin-left: 50px;
+    padding-left: 50px;
+    margin-right: 50px;
+    padding-right: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+main{
+
+    background: white;
+
+}
+
+body, header, footer{
+
+    background: rgb(2, 26, 65);
+
+}
+
+header{
+
+    display: block;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    color: white;
+
+}
+
+.consultoria{
+
+    display: inline-block;
+    width: 25%;
+    height: 50%;
+    font-size: 28px;
+    margin-left: 20px;
+
+}
+
+nav{
+
+    display: inline-block;
+    width: 70%;
+    margin: 0;
+
+}
+
+
+
+ul{
+
+    display: inline-block;
+    flex-direction: row;
+    list-style: none;
+    width: 90%;
+    height: 50%;
+
+}
+
+header li{
+
+    display: inline-block;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    width: auto;
+    height: auto;
+    align-items: center;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+footer a, header a{
+
+    text-decoration: none;
+
+}
+
+header a{
+
+    color: white;
+
+}
+
+header a:hover{
+
+    color: rgb(0, 85, 255);
+
+}
+
+
+footer a{
+
+    color: rgb(0, 85, 255);
+
+}
+
+footer a:hover{
+
+    color: rgb(0, 3, 7);
+
+}
+
+.banner{
+
+    background-image: url(../Imagens/surf.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    text-transform: uppercase;
+
+}
+
+figure{
+
+    width: 100%;
+    height: 100%;
+    margin: 0;
+
+}
+
+.texto{
+
+    width: 50%;
+    height: 100px;
+    color: white;
+    margin: 0;
+    margin-left: 40px;
+
+}
+
+.banner h1{
+
+    font-size: 80px;
+    margin-top: 100px;
+
+}
+
+.banner p{
+
+   font-size: 14px;
+   width: 30%;
+
+}
+
+.local{
+
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 20px;
+
+}
+
+#boxes{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 97%;
+    align-self: center;
+    margin-left: 20px;
+
+}
+
+.box{
+
+    width: 30%;
+    padding: 20px;
+    box-sizing: border-box;
+    background: rgb(3, 135, 158);
+    color: white;
+
+}
+
+.box button{
+
+    position: relative;
+    background: rgb(3, 191, 243);
+    border-style: double;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    box-shadow: 0 4px 0 rgb(3, 135, 158);
+    top: 10px;
+
+}
+
+#botaoEsquerda{
+
+    margin-top: 16px;
+
+}
+
+#parteDeBaixo{
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.esquerda, .centro, .direita{
+
+    display: inline-block;
+    justify-content: space-between;
+    width: 30%;
+    height: 268px;
+    margin: 0;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+
+.centro, .direita{
+
+    margin-left: 45px;
+
+}
+
+.esquerda h1, .direita h1{
+
+    margin: 0;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 25px;
+    text-transform: uppercase;
+    font-size: 24px;
+
+}
+
+.centro p{
+
+    margin-top: 45px;
+
+}
+
+.centro a{
+
+    display: flex;
+    position: relative;
+    text-decoration: none;
+    margin-top: 80px;
+
+}
+
+#caixa{
+
+    display: flex;
+    flex-direction: column;
+    background: rgb(144, 251, 215);
+    height: 150px;
+    text-align: center;
+
+}
+
+#caixa p{
+
+    text-align: left;
+    padding: 15px;
+    padding-top: 5px;
+
+}
+
+.mundo{
+
+    height: 210px;
+    width: 100%;
+    position: relative;
+
+}
+
+footer{
+
+    width: 100%;
+    height: 100%;
+    background: rgb(144, 251, 215);
+
+}
+
+footer nav{
+
+    text-align: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+footer ul{
+
+    display: inline-block;
+    justify-content: space-between;
+
+}
+
+footer li{
+
+    display: inline-block;
+    flex-direction: row;
+    width: 120px;
+    height: 25px;
+    margin: 0;
+    margin-left: 10px;
+
+}
